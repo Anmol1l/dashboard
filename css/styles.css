@@ -10,7 +10,7 @@ body {
     grid-template-rows: 1fr 4fr;
 }
 
-.header a, .sidebar a {
+header li a, .sidebar a {
     text-decoration: none;
     color: white;    
 }
@@ -64,6 +64,11 @@ header {
     height: 50px;
     width: 50px;
     border-radius: 50px;
+}
+
+.name a {
+    color: black;
+    text-decoration: none;
 }
 
 .account-info .name p {
@@ -159,6 +164,11 @@ nav div p {
     column-gap: 25px;
 }
 
+.main a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
@@ -215,7 +225,7 @@ hr {
     gap: 25px;
 }
 
-.account {
+.account a {
     display: flex;
     gap: 18px;
 }
