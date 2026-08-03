@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -7,6 +8,11 @@ body {
     height: 100vh;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 4fr;
+}
+
+a {
+    text-decoration: none;
+    color: white;    
 }
 
 header {
@@ -76,15 +82,6 @@ header {
     border-radius: 50px;
 }
 
-.post-options a {
-    text-decoration: none;
-    color: white;
-    background-color: #7298f1;
-    padding: 10px 30px;
-    border-radius: 40px;
-    
-}
-
 .post-options{
     display: flex;
     align-items: center;
@@ -97,5 +94,59 @@ header {
     gap: 10px;
 }
 
+.post-options li {
+    background-color: #7298f1;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
 
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 25px;
+    gap: 50px;
+}
 
+.sidebar p {
+    display: inline;
+}
+
+.dashboard a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.dashboard img {
+    width: 50px;
+    height: 50px;
+}
+
+.dashboard p {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+nav a {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+nav img {
+    width: 30px;
+    height: 30px;
+}
+
+nav div p {
+    font-size: 1.2rem;
+    font-weight: 550;
+}
