@@ -156,8 +156,7 @@ nav div p {
     margin: 30px 20px 30px 20px;
     display: grid;
     grid-template-columns: 3fr 1fr;
-
-
+    column-gap: 25px;
 }
 
 .projects {
@@ -168,7 +167,7 @@ nav div p {
     gap: 15px;
 }
 
-.projects p {
+.projects h3 {
     grid-column: 1 / -1;
 }
 
@@ -177,12 +176,56 @@ nav div p {
     padding: 20px 30px;
     background-color: white;
     border-left: 5px solid pink;
-    color: rgb(84, 84, 84);
+    color: #545454;
 }
 
-.project p:first-child {
-    font-size: 1.1rem;
-    font-weight: 600;
+.project h4,.announcements h4 {
     color: black;
     margin-bottom: 2px;
 }
+
+.discover {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.announcements {
+    margin-top: 7px;
+    border-radius: 7px;
+    padding: 20px 30px;
+    background-color: white;
+    color: #545454;
+}
+
+hr {
+    margin: 20px 0px;
+}
+
+.trending {
+    margin-top: 7px;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 7px;
+}
+
+.trending-accounts {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.account {
+    display: flex;
+    gap: 18px;
+}
+
+.account img {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+
+
