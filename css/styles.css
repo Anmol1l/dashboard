@@ -10,7 +10,7 @@ body {
     grid-template-rows: 1fr 4fr;
 }
 
-a {
+.header a, .sidebar a {
     text-decoration: none;
     color: white;    
 }
@@ -179,7 +179,7 @@ nav div p {
     color: #545454;
 }
 
-.project h4,.announcements h4 {
+h4 {
     color: black;
     margin-bottom: 2px;
 }
@@ -225,6 +225,14 @@ hr {
     width: 40px;
     height: 40px;
     border-radius: 50px;
+}
+
+.account-name > p {
+    color: #545454;
+}
+
+.card {
+    box-shadow: 7px 8px 4px -5px #00000022;
 }
 
 
